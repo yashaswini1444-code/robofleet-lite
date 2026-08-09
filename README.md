@@ -2,7 +2,14 @@
 
 ## Multi-Robot Warehouse Path-Planning Simulator
 
+[![tests](https://github.com/yashaswini1444-code/robofleet-lite/actions/workflows/tests.yml/badge.svg)](https://github.com/yashaswini1444-code/robofleet-lite/actions/workflows/tests.yml)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 RoboFleet Lite is a browser-based, backend-authoritative 2D warehouse simulator. It coordinates exactly three simulated robots, assigns delivery jobs by reachable route distance, streams state over WebSockets, and visualizes real paths and metrics. It is an interview-focused software simulator—not a production autonomous-robot deployment.
+
+![RoboFleet Lite dashboard — three robots moving delivery paths on the warehouse grid with live metrics](docs/screenshot.png)
 
 ## Features
 
