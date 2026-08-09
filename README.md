@@ -7,7 +7,7 @@
 [![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-RoboFleet Lite is a browser-based, backend-authoritative 2D warehouse simulator. It coordinates exactly three simulated robots, assigns delivery jobs by reachable route distance, streams state over WebSockets, and visualizes real paths and metrics. It is an interview-focused software simulator—not a production autonomous-robot deployment.
+RoboFleet Lite is a browser-based, backend-authoritative 2D warehouse simulator. It coordinates exactly three simulated robots, assigns delivery jobs by reachable route distance, streams state over WebSockets, and visualizes real paths and metrics. It exists to demonstrate backend systems engineering — concurrency-safe real-time state, from-scratch graph search, and multi-agent collision arbitration — applied to a classic robotics coordination problem. It is an interview-focused software simulator, not a production autonomous-robot deployment.
 
 ![RoboFleet Lite dashboard — three robots moving delivery paths on the warehouse grid with live metrics](docs/screenshot.png)
 
@@ -124,3 +124,12 @@ The seeded 250-tick safety test asserts unique positions and rejects edge swaps 
 - Timing measurements vary by machine
 
 Natural extensions include time-expanded reservations, deadlock detection, fairness aging, CBS for stronger MAPF completeness, D* Lite for incremental replanning, persistent event logs, and a dedicated simulation actor for horizontal API scaling.
+
+## Documentation
+
+- [Architecture](docs/architecture.md) — layer-by-layer design, locking, and state model
+- [Algorithms](docs/algorithms.md) — A*/Dijkstra theory, complexity, and coordination logic
+- [Evaluation](docs/evaluation.md) — how to reproduce `docs/evaluation-results.json`
+- [Resume claim verification](docs/resume-claims.md) — every resume bullet mapped to code and tests
+- [Portfolio summary](docs/portfolio-summary.md) — ready-to-paste project descriptions
+- [Interview guide](docs/interview-guide.md) — pitches, 50 Q&A, follow-ups, and live-coding prompts
